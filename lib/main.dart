@@ -1,5 +1,8 @@
 import 'package:client/core/theme/theme.dart';
 import 'package:client/view/page/lab1.dart';
+import 'package:client/view/page/lab2.dart';
+import 'package:client/view/page/lab3.dart';
+import 'package:client/view/page/lab4.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,7 +16,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: AppTheme.dartThemeMode,
-      home: const Lab1(),
+      home: const lab4(),
       debugShowCheckedModeBanner: false,
     );
   }
