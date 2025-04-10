@@ -1,12 +1,16 @@
 import 'package:client/core/theme/theme.dart';
+import 'package:client/lab8/lab8.dart';
+import 'package:client/lab9/screens/loading_screen.dart';
 import 'package:client/view/page/dangnhap.dart';
-import 'package:client/view/page/lab1.dart';
-import 'package:client/view/page/lab2.dart';
-import 'package:client/view/page/lab3.dart';
-import 'package:client/view/page/lab4.dart';
+import 'package:client/lab1/lab1.dart';
+import 'package:client/lab2/lab2.dart';
+import 'package:client/lab3/lab3.dart';
+import 'package:client/lab4/lab4.dart';
+import 'package:client/lab6/lab6.dart';
+import 'package:client/lab7/lab7.dart';
 import 'package:flutter/material.dart';
 
-import 'view/page/lab5.dart';
+import 'lab5/lab5.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,7 +23,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: AppTheme.dartThemeMode,
-      home: const DangNhap(),
+      home: const lab9(),
       debugShowCheckedModeBanner: false,
     );
   }
